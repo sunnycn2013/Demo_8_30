@@ -11,7 +11,6 @@
 
 @interface UAHomeRequest : UARequest
 
-- (void)fetchUAHomeInfo;
-- (void)responseHomeInfo:(void (^)(NSDictionary *params, NSURLResponse *, NSError *))completionHandler;
+- (void)fetchUAHomeInfoCompletionHandler:(void (^)(NSDictionary *params))completion;
 
 @end

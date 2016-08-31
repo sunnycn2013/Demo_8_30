@@ -10,8 +10,9 @@
 
 @interface UARequest ()
 
-@property (nonatomic,strong)NSURLSession * session;
 @property (nonatomic,strong)NSURLRequest * request;
+@property (nonatomic,strong)NSURLSession * session;
+@property (nonatomic,strong)NSURLSessionDataTask * task;
 @property (nonatomic,strong)NSDictionary * parameters;
 
 @end
@@ -32,7 +33,7 @@
 {
     //url 二次拼接
 
-    [self.session dataTaskWithRequest:_request completionHandler:^(NSData * data, NSURLResponse * response, NSError * error){
+    self.task = [self.session dataTaskWithRequest:_request completionHandler:^(NSData * data, NSURLResponse * response, NSError * error){
         NSDictionary * parameters = nil;
         if (data) {
             parameters = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableLeaves error:nil];
@@ -41,4 +42,18 @@
     }];
 }
 
+- (NSString *)hostUrl
+{
+    return @"";
+}
+
+- (NSString *)serverAPI
+{
+    return @"";
+}
+
+- (void)cancle
+{
+    [self.task cancel];
+}
 @end

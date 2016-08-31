@@ -10,15 +10,29 @@
 
 @implementation UAHomeRequest
 
-- (void)fetchUAHomeInfo
+- (void)fetchUAHomeInfoCompletionHandler:(void (^)(NSDictionary *params))completion
 {
-    NSString * functionId = @"uaHome";
-    NSString * uaHomeHost = @"www.baidu.com";
+    [self response:^(NSDictionary *params, NSURLResponse * response, NSError * error){
+        if(error)
+        {
+            //异常埋点
+            return ;
+        }
+        
+        if(completion){
+            completion(params);
+        }
+    }];
 }
 
-- (void)responseHomeInfo:(void (^)(NSDictionary *params, NSURLResponse *, NSError *))completionHandler
+- (NSString *)hostUrl
 {
-//    [self response:()]
+    return @"http://www.baidu.com/";
+}
+
+- (NSString *)serverAPI
+{
+    return @"api/home";
 }
 
 @end

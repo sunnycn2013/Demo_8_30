@@ -17,6 +17,7 @@
 		37B078DD1D757C6700D6430C /* UAModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B078DC1D757C6700D6430C /* UAModel.m */; };
 		37B078E01D757C7D00D6430C /* UAViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B078DF1D757C7D00D6430C /* UAViewModel.m */; };
 		37B078E41D757CBD00D6430C /* UAHomeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B078E31D757CBD00D6430C /* UAHomeRequest.m */; };
+		B02699721D771664006D8FD0 /* UAFollowRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B02699711D771664006D8FD0 /* UAFollowRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		37B078DF1D757C7D00D6430C /* UAViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAViewModel.m; sourceTree = "<group>"; };
 		37B078E21D757CBD00D6430C /* UAHomeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAHomeRequest.h; sourceTree = "<group>"; };
 		37B078E31D757CBD00D6430C /* UAHomeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAHomeRequest.m; sourceTree = "<group>"; };
+		B02699701D771664006D8FD0 /* UAFollowRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAFollowRequest.h; sourceTree = "<group>"; };
+		B02699711D771664006D8FD0 /* UAFollowRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAFollowRequest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +154,8 @@
 			children = (
 				37B078E21D757CBD00D6430C /* UAHomeRequest.h */,
 				37B078E31D757CBD00D6430C /* UAHomeRequest.m */,
+				B02699701D771664006D8FD0 /* UAFollowRequest.h */,
+				B02699711D771664006D8FD0 /* UAFollowRequest.m */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -230,6 +235,7 @@
 				37B078E01D757C7D00D6430C /* UAViewModel.m in Sources */,
 				37B078DD1D757C6700D6430C /* UAModel.m in Sources */,
 				37B078C01D75222E00D6430C /* AppDelegate.m in Sources */,
+				B02699721D771664006D8FD0 /* UAFollowRequest.m in Sources */,
 				37B078BD1D75222E00D6430C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
