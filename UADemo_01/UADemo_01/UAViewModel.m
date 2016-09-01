@@ -46,7 +46,7 @@
 
 - (void)followWithModel:(UAModel *)model CompletionHandler:(void(^)(NSInteger index))completion
 {
-    [_followRequest followWithWeiboModel:model CompletionHandler:^(NSString * code){
+    [_followRequest followWithWeiboModel:model CompletionHandler:^(NSDictionary * params){
         
     }];
 }

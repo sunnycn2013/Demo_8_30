@@ -16,6 +16,7 @@
         if(error)
         {
             //异常埋点
+            NSLog(@"wang luo yi chang...");
             return ;
         }
         

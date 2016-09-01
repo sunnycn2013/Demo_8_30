@@ -11,6 +11,6 @@
 
 @interface UAFollowRequest : UARequest
 
-- (void)followWithWeiboModel:(UAModel *)model CompletionHandler:(void(^)(NSString * code))completion;
+- (void)followWithWeiboModel:(UAModel *)model CompletionHandler:(void(^)(NSDictionary * params))completion;
 
 @end

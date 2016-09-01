@@ -10,10 +10,16 @@
 
 @implementation UAFollowRequest
 
-- (void)followWithWeiboModel:(UAModel *)model CompletionHandler:(void(^)(NSString * code))completion
+- (void)followWithWeiboModel:(UAModel *)model CompletionHandler:(void(^)(NSDictionary * params))completion
 {
     [self response:^(NSDictionary *params, NSURLResponse * response, NSError * error){
-        
+        if (error) {
+            NSLog(@"wang luo yi chang...");
+            return ;
+        }
+        if (completion) {
+            completion(params);
+        }
     }];
 }
 
