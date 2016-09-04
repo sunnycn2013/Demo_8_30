@@ -1,0 +1,156 @@
+{
+    "floors": [
+               {
+               "pattern": "002",
+               "img": "http://m.360buyimg.com/mobile/s591x135_jfs/t1945/175/1514385186/95428/aaae16ad/56616d0aN7f62d1e7.jpg",
+               "jump": {
+               "des": "m",
+               "type": 0,
+               "url": "http://sale.jd.com/app/act/45AP3FGWvfZQdpz7.html",
+               "params": {
+               "funcitonId": null,
+               "from": null,
+               "url": "http://sale.jd.com/app/act/45AP3FGWvfZQdpz7.html"
+               },
+               "srv": "foodTimes_764"
+               },
+               "margin": {
+               "height": 0
+               }
+               },
+               {
+               "pattern": "002",
+               "img": "http://m.360buyimg.com/mobile/s591x135_jfs/t1990/23/1522087453/114678/d904685d/566164f5Na32b7d81.jpg",
+               "jump": {
+               "des": "m",
+               "type": 0,
+               "url": "http://sale.jd.com/app/act/ywzgL1Z47Bc6Ge2.html",
+               "params": {
+               "funcitonId": null,
+               "from": null,
+               "url": "http://sale.jd.com/app/act/ywzgL1Z47Bc6Ge2.html"
+               },
+               "srv": "foodTimes_763"
+               },
+               "margin": {
+               "height": 0
+               }
+               },
+               {
+               "pattern": "002",
+               "img": "http://m.360buyimg.com/mobile/s591x135_jfs/t2065/298/1553258318/141717/fe33ddc1/566150caN8c2a9975.jpg",
+               "jump": {
+               "des": "m",
+               "type": 0,
+               "url": "http://sale.jd.com/app/act/egPoGrVRtj.html",
+               "params": {
+               "funcitonId": null,
+               "from": null,
+               "url": "http://sale.jd.com/app/act/egPoGrVRtj.html"
+               },
+               "srv": "foodTimes_757"
+               },
+               "margin": {
+               "height": 10
+               }
+               },
+               {
+               "identityId": 130,
+               "pattern": "003",
+               "img": "http://m.360buyimg.com/mobile/s288x270_jfs/t2029/171/1415110184/199495/66ff4a71/565bf248N1f30628c.jpg",
+               "jump": {
+               "des": "m",
+               "type": 0,
+               "url": "http://sale.jd.com/app/act/04gxvjZNd7mQ3.html",
+               "params": {
+               "funcitonId": null,
+               "from": null,
+               "url": "http://sale.jd.com/app/act/04gxvjZNd7mQ3.html"
+               },
+               "srv": "foodTimes_608"
+               },
+               "margin": {
+               "height": 10
+               }
+               },
+               {
+               "identityId": 144,
+               "pattern": "004",
+               "img": "http://m.360buyimg.com/mobile/s288x128_jfs/t2536/364/653074323/86717/74a7c0ba/565d116fNd4eae543.jpg",
+               "jump": {
+               "des": "m",
+               "type": 0,
+               "url": "http://sale.jd.com/app/act/7YFcuijtvn.html",
+               "params": {
+               "funcitonId": null,
+               "from": null,
+               "url": "http://sale.jd.com/app/act/7YFcuijtvn.html"
+               },
+               "srv": "foodTimes_668"
+               },
+               "margin": {
+               "height": 10
+               }
+               },
+               {
+               "identityId": 115,
+               "pattern": "007",
+               "img": "http://m.360buyimg.com/mobile/s187x187_jfs/t1948/135/1442736505/144327/4d30d9ea/565c1b54N293c80f7.jpg",
+               "jump": {
+               "des": "m",
+               "type": 0,
+               "url": "http://sale.jd.com/app/act/KWqpl4MyUGL.html",
+               "params": {
+               "funcitonId": null,
+               "from": null,
+               "url": "http://sale.jd.com/app/act/KWqpl4MyUGL.html"
+               },
+               "srv": "foodTimes_595"
+               },
+               "margin": {
+               "height": 10
+               }
+               },
+               {
+               "identityId": 144,
+               "pattern": "004",
+               "img": "http://m.360buyimg.com/mobile/s288x128_jfs/t2536/364/653074323/86717/74a7c0ba/565d116fNd4eae543.jpg",
+               "jump": {
+               "des": "m",
+               "type": 0,
+               "url": "http://sale.jd.com/app/act/7YFcuijtvn.html",
+               "params": {
+               "funcitonId": null,
+               "from": null,
+               "url": "http://sale.jd.com/app/act/7YFcuijtvn.html"
+               },
+               "srv": "foodTimes_668"
+               },
+               "margin": {
+               "height": 10
+               }
+               },
+               {
+               "identityId": 115,
+               "pattern": "007",
+               "img": "http://m.360buyimg.com/mobile/s187x187_jfs/t1948/135/1442736505/144327/4d30d9ea/565c1b54N293c80f7.jpg",
+               "jump": {
+               "des": "m",
+               "type": 0,
+               "url": "http://sale.jd.com/app/act/KWqpl4MyUGL.html",
+               "params": {
+               "funcitonId": null,
+               "from": null,
+               "url": "http://sale.jd.com/app/act/KWqpl4MyUGL.html"
+               },
+               "srv": "foodTimes_595"
+               },
+               "margin": {
+               "height": 10
+               }
+               }
+               ],
+    "name": "小食代",
+    "code": "0",
+    "time": "8"
+}

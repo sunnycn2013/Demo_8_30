@@ -10,36 +10,41 @@
 
 @interface UARequest ()
 
-@property (nonatomic,strong)NSURLRequest * request;
-@property (nonatomic,strong)NSURLSession * session;
-@property (nonatomic,strong)NSURLSessionDataTask * task;
-@property (nonatomic,strong)NSDictionary * parameters;
+@property (nonatomic,strong) AFHTTPSessionManager * manager;
+@property (nonatomic,strong) NSURLSessionDataTask * task;
 
 @end
 
 @implementation UARequest
-- (instancetype)initWithPatameters:(NSDictionary *)params
+- (instancetype)init
 {
     self = [super init];
     if (self) {
-        _parameters = params;
-        _session = [NSURLSession sharedSession];
-        _request = [NSURLRequest requestWithURL:params[@"url"]];
+        _parameters = @{};
+        _manager = [AFHTTPSessionManager manager];
     }
     return self;
 }
 
-- (void)response:(void(^)(NSDictionary * params, NSURLResponse * response, NSError * error))completionHandler;
+- (void)response:(void(^)(NSDictionary * params))success
+         failure:(void(^)(NSError *error))failure
 {
     //url 二次拼接
 
-    self.task = [self.session dataTaskWithRequest:_request completionHandler:^(NSData * data, NSURLResponse * response, NSError * error){
-        NSDictionary * parameters = nil;
-        if (data) {
-            parameters = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableLeaves error:nil];
-        }
-        completionHandler(parameters,response,error);
-    }];
+    self.task = [self.manager GET:self.hostUrl
+                       parameters:self.parameters
+                         progress:nil
+                          success:^(NSURLSessionDataTask *task, id _Nullable responseObject){
+                              NSLog(@"%@ %@",task.response.URL.absoluteString,responseObject);
+                              if (success) {
+                                  success(responseObject);
+                              }
+                          }
+                          failure:^(NSURLSessionDataTask * _Nullable task, NSError *error){
+                              if (failure) {
+                                  failure(error);
+                              }
+                          }];
 }
 
 - (NSString *)hostUrl

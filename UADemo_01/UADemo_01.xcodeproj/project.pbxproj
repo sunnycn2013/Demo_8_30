@@ -15,9 +15,13 @@
 		37B078CB1D75222E00D6430C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37B078C91D75222E00D6430C /* LaunchScreen.storyboard */; };
 		37B078DA1D757C5400D6430C /* UARequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B078D91D757C5400D6430C /* UARequest.m */; };
 		37B078DD1D757C6700D6430C /* UAModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B078DC1D757C6700D6430C /* UAModel.m */; };
-		37B078E01D757C7D00D6430C /* UAViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B078DF1D757C7D00D6430C /* UAViewModel.m */; };
+		37B078E01D757C7D00D6430C /* UAHomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B078DF1D757C7D00D6430C /* UAHomeViewModel.m */; };
 		37B078E41D757CBD00D6430C /* UAHomeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B078E31D757CBD00D6430C /* UAHomeRequest.m */; };
+		B014EB031D7A8425008294AE /* UAWeiBo.m in Sources */ = {isa = PBXBuildFile; fileRef = B014EB021D7A8425008294AE /* UAWeiBo.m */; };
+		B014EB061D7A843C008294AE /* UAUser.m in Sources */ = {isa = PBXBuildFile; fileRef = B014EB051D7A843C008294AE /* UAUser.m */; };
+		B014EB0A1D7A8A1F008294AE /* UAWeiBoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B014EB091D7A8A1F008294AE /* UAWeiBoCell.m */; };
 		B02699721D771664006D8FD0 /* UAFollowRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B02699711D771664006D8FD0 /* UAFollowRequest.m */; };
+		CD0A1C993A6E05E6427F1D7C /* libPods-UADemo_01.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D31517015ECB75D367721E /* libPods-UADemo_01.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,12 +39,22 @@
 		37B078D91D757C5400D6430C /* UARequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UARequest.m; sourceTree = "<group>"; };
 		37B078DB1D757C6700D6430C /* UAModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAModel.h; sourceTree = "<group>"; };
 		37B078DC1D757C6700D6430C /* UAModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAModel.m; sourceTree = "<group>"; };
-		37B078DE1D757C7D00D6430C /* UAViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAViewModel.h; sourceTree = "<group>"; };
-		37B078DF1D757C7D00D6430C /* UAViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAViewModel.m; sourceTree = "<group>"; };
+		37B078DE1D757C7D00D6430C /* UAHomeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAHomeViewModel.h; sourceTree = "<group>"; };
+		37B078DF1D757C7D00D6430C /* UAHomeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAHomeViewModel.m; sourceTree = "<group>"; };
 		37B078E21D757CBD00D6430C /* UAHomeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAHomeRequest.h; sourceTree = "<group>"; };
 		37B078E31D757CBD00D6430C /* UAHomeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAHomeRequest.m; sourceTree = "<group>"; };
+		78D31517015ECB75D367721E /* libPods-UADemo_01.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UADemo_01.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D90C6E107D84A8F4F548E3 /* Pods-UADemo_01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UADemo_01.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UADemo_01/Pods-UADemo_01.debug.xcconfig"; sourceTree = "<group>"; };
+		B014EB011D7A8425008294AE /* UAWeiBo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAWeiBo.h; sourceTree = "<group>"; };
+		B014EB021D7A8425008294AE /* UAWeiBo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAWeiBo.m; sourceTree = "<group>"; };
+		B014EB041D7A843C008294AE /* UAUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAUser.h; sourceTree = "<group>"; };
+		B014EB051D7A843C008294AE /* UAUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAUser.m; sourceTree = "<group>"; };
+		B014EB081D7A8A1F008294AE /* UAWeiBoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAWeiBoCell.h; sourceTree = "<group>"; };
+		B014EB091D7A8A1F008294AE /* UAWeiBoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAWeiBoCell.m; sourceTree = "<group>"; };
+		B014EB0B1D7A9923008294AE /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		B02699701D771664006D8FD0 /* UAFollowRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAFollowRequest.h; sourceTree = "<group>"; };
 		B02699711D771664006D8FD0 /* UAFollowRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAFollowRequest.m; sourceTree = "<group>"; };
+		C1BB9BF6FA5BAFBA1EE22AC3 /* Pods-UADemo_01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UADemo_01.release.xcconfig"; path = "Pods/Target Support Files/Pods-UADemo_01/Pods-UADemo_01.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,17 +62,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD0A1C993A6E05E6427F1D7C /* libPods-UADemo_01.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B89AE7D01634ECAE95DD9DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78D31517015ECB75D367721E /* libPods-UADemo_01.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		37B078AF1D75222E00D6430C = {
 			isa = PBXGroup;
 			children = (
 				37B078BA1D75222E00D6430C /* UADemo_01 */,
 				37B078B91D75222E00D6430C /* Products */,
+				45CD91DCDB850D622778D9EF /* Pods */,
+				1B89AE7D01634ECAE95DD9DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +98,7 @@
 		37B078BA1D75222E00D6430C /* UADemo_01 */ = {
 			isa = PBXGroup;
 			children = (
+				B014EB071D7A8A00008294AE /* Cell */,
 				37B078D61D757BAE00D6430C /* Resource */,
 				37B078D51D75224E00D6430C /* Controller */,
 				37B078D41D75224600D6430C /* View */,
@@ -95,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				37B078BC1D75222E00D6430C /* main.m */,
+				B014EB0B1D7A9923008294AE /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -102,8 +129,8 @@
 		37B078D21D75223700D6430C /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				37B078DE1D757C7D00D6430C /* UAViewModel.h */,
-				37B078DF1D757C7D00D6430C /* UAViewModel.m */,
+				37B078DE1D757C7D00D6430C /* UAHomeViewModel.h */,
+				37B078DF1D757C7D00D6430C /* UAHomeViewModel.m */,
 			);
 			name = ViewModel;
 			sourceTree = "<group>";
@@ -111,6 +138,7 @@
 		37B078D31D75223E00D6430C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B014EB001D7A83E6008294AE /* Home */,
 				37B078D71D757BB900D6430C /* Request */,
 				37B078DB1D757C6700D6430C /* UAModel.h */,
 				37B078DC1D757C6700D6430C /* UAModel.m */,
@@ -160,6 +188,35 @@
 			name = Home;
 			sourceTree = "<group>";
 		};
+		45CD91DCDB850D622778D9EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81D90C6E107D84A8F4F548E3 /* Pods-UADemo_01.debug.xcconfig */,
+				C1BB9BF6FA5BAFBA1EE22AC3 /* Pods-UADemo_01.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B014EB001D7A83E6008294AE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B014EB011D7A8425008294AE /* UAWeiBo.h */,
+				B014EB021D7A8425008294AE /* UAWeiBo.m */,
+				B014EB041D7A843C008294AE /* UAUser.h */,
+				B014EB051D7A843C008294AE /* UAUser.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		B014EB071D7A8A00008294AE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B014EB081D7A8A1F008294AE /* UAWeiBoCell.h */,
+				B014EB091D7A8A1F008294AE /* UAWeiBoCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,9 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37B078CF1D75222E00D6430C /* Build configuration list for PBXNativeTarget "UADemo_01" */;
 			buildPhases = (
+				BA041E0494C60969A76A03C3 /* [CP] Check Pods Manifest.lock */,
 				37B078B41D75222E00D6430C /* Sources */,
 				37B078B51D75222E00D6430C /* Frameworks */,
 				37B078B61D75222E00D6430C /* Resources */,
+				76F79ABE4B36437E6E5C23A2 /* [CP] Embed Pods Frameworks */,
+				C6FBBE8BB7FBCBFD251FD030 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,6 +284,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		76F79ABE4B36437E6E5C23A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UADemo_01/Pods-UADemo_01-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA041E0494C60969A76A03C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C6FBBE8BB7FBCBFD251FD030 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UADemo_01/Pods-UADemo_01-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		37B078B41D75222E00D6430C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -231,9 +339,12 @@
 			files = (
 				37B078C31D75222E00D6430C /* ViewController.m in Sources */,
 				37B078DA1D757C5400D6430C /* UARequest.m in Sources */,
+				B014EB031D7A8425008294AE /* UAWeiBo.m in Sources */,
 				37B078E41D757CBD00D6430C /* UAHomeRequest.m in Sources */,
-				37B078E01D757C7D00D6430C /* UAViewModel.m in Sources */,
+				B014EB061D7A843C008294AE /* UAUser.m in Sources */,
+				37B078E01D757C7D00D6430C /* UAHomeViewModel.m in Sources */,
 				37B078DD1D757C6700D6430C /* UAModel.m in Sources */,
+				B014EB0A1D7A8A1F008294AE /* UAWeiBoCell.m in Sources */,
 				37B078C01D75222E00D6430C /* AppDelegate.m in Sources */,
 				B02699721D771664006D8FD0 /* UAFollowRequest.m in Sources */,
 				37B078BD1D75222E00D6430C /* main.m in Sources */,
@@ -346,8 +457,10 @@
 		};
 		37B078D01D75222E00D6430C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81D90C6E107D84A8F4F548E3 /* Pods-UADemo_01.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/UADemo_01/PrefixHeader.pch";
 				INFOPLIST_FILE = UADemo_01/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.UADemo-01";
@@ -357,8 +470,10 @@
 		};
 		37B078D11D75222E00D6430C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1BB9BF6FA5BAFBA1EE22AC3 /* Pods-UADemo_01.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/UADemo_01/PrefixHeader.pch";
 				INFOPLIST_FILE = UADemo_01/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.UADemo-01";

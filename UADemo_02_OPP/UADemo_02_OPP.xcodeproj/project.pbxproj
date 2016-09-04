@@ -7,15 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AF2797AE118022FCB8D9C01 /* libPods-UADemo_02_OPP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A0496A901FFDEEA3C1ABFF /* libPods-UADemo_02_OPP.a */; };
+		B014EB0E1D7AB861008294AE /* UAHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B014EB0D1D7AB861008294AE /* UAHandler.m */; };
+		B014EB111D7AB91F008294AE /* UAAction.m in Sources */ = {isa = PBXBuildFile; fileRef = B014EB101D7AB91F008294AE /* UAAction.m */; };
+		B014EB181D7AC0D2008294AE /* UAFloorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B014EB171D7AC0D2008294AE /* UAFloorModel.m */; };
+		B014EB261D7B23E8008294AE /* UABaseFloor.m in Sources */ = {isa = PBXBuildFile; fileRef = B014EB251D7B23E8008294AE /* UABaseFloor.m */; };
 		B02699811D7722CF006D8FD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B02699801D7722CF006D8FD0 /* main.m */; };
 		B02699841D7722CF006D8FD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B02699831D7722CF006D8FD0 /* AppDelegate.m */; };
 		B02699871D7722CF006D8FD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B02699861D7722CF006D8FD0 /* ViewController.m */; };
 		B026998A1D7722CF006D8FD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02699881D7722CF006D8FD0 /* Main.storyboard */; };
 		B026998C1D7722CF006D8FD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B026998B1D7722CF006D8FD0 /* Assets.xcassets */; };
 		B026998F1D7722CF006D8FD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B026998D1D7722CF006D8FD0 /* LaunchScreen.storyboard */; };
+		B0B9B1D31D7BA7AF00265680 /* UAJump.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B9B1D21D7BA7AF00265680 /* UAJump.m */; };
+		B0B9B1D51D7BAB2400265680 /* food.json in Resources */ = {isa = PBXBuildFile; fileRef = B0B9B1D41D7BAB2400265680 /* food.json */; };
+		B0B9B1D91D7BAF5600265680 /* UANormal.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B9B1D81D7BAF5600265680 /* UANormal.m */; };
+		B0B9B1DC1D7BBCCD00265680 /* UANormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B9B1DB1D7BBCCD00265680 /* UANormalCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		51A0496A901FFDEEA3C1ABFF /* libPods-UADemo_02_OPP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UADemo_02_OPP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B014EB0C1D7AB861008294AE /* UAHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAHandler.h; sourceTree = "<group>"; };
+		B014EB0D1D7AB861008294AE /* UAHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAHandler.m; sourceTree = "<group>"; };
+		B014EB0F1D7AB91F008294AE /* UAAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAAction.h; sourceTree = "<group>"; };
+		B014EB101D7AB91F008294AE /* UAAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAAction.m; sourceTree = "<group>"; };
+		B014EB161D7AC0D2008294AE /* UAFloorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAFloorModel.h; sourceTree = "<group>"; };
+		B014EB171D7AC0D2008294AE /* UAFloorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAFloorModel.m; sourceTree = "<group>"; };
+		B014EB241D7B23E8008294AE /* UABaseFloor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UABaseFloor.h; sourceTree = "<group>"; };
+		B014EB251D7B23E8008294AE /* UABaseFloor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UABaseFloor.m; sourceTree = "<group>"; };
+		B014EB271D7B2444008294AE /* UAFloorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAFloorProtocol.h; sourceTree = "<group>"; };
 		B026997C1D7722CF006D8FD0 /* UADemo_02_OPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UADemo_02_OPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02699801D7722CF006D8FD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B02699821D7722CF006D8FD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +45,17 @@
 		B026998B1D7722CF006D8FD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B026998E1D7722CF006D8FD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B02699901D7722CF006D8FD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0B9B1D11D7BA7AF00265680 /* UAJump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAJump.h; sourceTree = "<group>"; };
+		B0B9B1D21D7BA7AF00265680 /* UAJump.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAJump.m; sourceTree = "<group>"; };
+		B0B9B1D41D7BAB2400265680 /* food.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = food.json; sourceTree = "<group>"; };
+		B0B9B1D71D7BAF5600265680 /* UANormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UANormal.h; sourceTree = "<group>"; };
+		B0B9B1D81D7BAF5600265680 /* UANormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UANormal.m; sourceTree = "<group>"; };
+		B0B9B1DA1D7BBCCD00265680 /* UANormalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UANormalCell.h; sourceTree = "<group>"; };
+		B0B9B1DB1D7BBCCD00265680 /* UANormalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UANormalCell.m; sourceTree = "<group>"; };
+		B0B9B1DE1D7BBE7A00265680 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B0B9B1E01D7BC4FD00265680 /* UAFloorRenderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAFloorRenderProtocol.h; sourceTree = "<group>"; };
+		C9467A373C6787E25F800B1B /* Pods-UADemo_02_OPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UADemo_02_OPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-UADemo_02_OPP/Pods-UADemo_02_OPP.release.xcconfig"; sourceTree = "<group>"; };
+		D3077F4727709B567D0E7302 /* Pods-UADemo_02_OPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UADemo_02_OPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UADemo_02_OPP/Pods-UADemo_02_OPP.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +63,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AF2797AE118022FCB8D9C01 /* libPods-UADemo_02_OPP.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6337554E7E0786053A2A8D27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3077F4727709B567D0E7302 /* Pods-UADemo_02_OPP.debug.xcconfig */,
+				C9467A373C6787E25F800B1B /* Pods-UADemo_02_OPP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B014EB121D7AC05D008294AE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B0B9B1DA1D7BBCCD00265680 /* UANormalCell.h */,
+				B0B9B1DB1D7BBCCD00265680 /* UANormalCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		B014EB231D7B23CD008294AE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B014EB241D7B23E8008294AE /* UABaseFloor.h */,
+				B014EB251D7B23E8008294AE /* UABaseFloor.m */,
+				B0B9B1D11D7BA7AF00265680 /* UAJump.h */,
+				B0B9B1D21D7BA7AF00265680 /* UAJump.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
 		B02699731D7722CF006D8FD0 = {
 			isa = PBXGroup;
 			children = (
 				B026997E1D7722CF006D8FD0 /* UADemo_02_OPP */,
 				B026997D1D7722CF006D8FD0 /* Products */,
+				6337554E7E0786053A2A8D27 /* Pods */,
+				EB1ADCC7D9E164190FD3F143 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +120,7 @@
 		B026997E1D7722CF006D8FD0 /* UADemo_02_OPP */ = {
 			isa = PBXGroup;
 			children = (
+				B014EB121D7AC05D008294AE /* Cell */,
 				B0269B0E1D772BAF006D8FD0 /* Commond */,
 				B0269B0D1D772B4B006D8FD0 /* Protocol */,
 				B0269B0C1D772AFD006D8FD0 /* Utils */,
@@ -72,6 +135,7 @@
 				B026998B1D7722CF006D8FD0 /* Assets.xcassets */,
 				B026998D1D7722CF006D8FD0 /* LaunchScreen.storyboard */,
 				B02699901D7722CF006D8FD0 /* Info.plist */,
+				B0B9B1D41D7BAB2400265680 /* food.json */,
 				B026997F1D7722CF006D8FD0 /* Supporting Files */,
 			);
 			path = UADemo_02_OPP;
@@ -81,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				B02699801D7722CF006D8FD0 /* main.m */,
+				B0B9B1DE1D7BBE7A00265680 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -88,6 +153,10 @@
 		B0269B091D772AE9006D8FD0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B0B9B1D61D7BAF1900265680 /* Nor */,
+				B014EB231D7B23CD008294AE /* Base */,
+				B014EB161D7AC0D2008294AE /* UAFloorModel.h */,
+				B014EB171D7AC0D2008294AE /* UAFloorModel.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -116,6 +185,8 @@
 		B0269B0D1D772B4B006D8FD0 /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
+				B0B9B1E01D7BC4FD00265680 /* UAFloorRenderProtocol.h */,
+				B014EB271D7B2444008294AE /* UAFloorProtocol.h */,
 			);
 			name = Protocol;
 			sourceTree = "<group>";
@@ -123,8 +194,29 @@
 		B0269B0E1D772BAF006D8FD0 /* Commond */ = {
 			isa = PBXGroup;
 			children = (
+				B014EB0C1D7AB861008294AE /* UAHandler.h */,
+				B014EB0D1D7AB861008294AE /* UAHandler.m */,
+				B014EB0F1D7AB91F008294AE /* UAAction.h */,
+				B014EB101D7AB91F008294AE /* UAAction.m */,
 			);
 			name = Commond;
+			sourceTree = "<group>";
+		};
+		B0B9B1D61D7BAF1900265680 /* Nor */ = {
+			isa = PBXGroup;
+			children = (
+				B0B9B1D71D7BAF5600265680 /* UANormal.h */,
+				B0B9B1D81D7BAF5600265680 /* UANormal.m */,
+			);
+			name = Nor;
+			sourceTree = "<group>";
+		};
+		EB1ADCC7D9E164190FD3F143 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51A0496A901FFDEEA3C1ABFF /* libPods-UADemo_02_OPP.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B02699931D7722CF006D8FD0 /* Build configuration list for PBXNativeTarget "UADemo_02_OPP" */;
 			buildPhases = (
+				4AC2C189C33C4998A49DDA18 /* [CP] Check Pods Manifest.lock */,
 				B02699781D7722CF006D8FD0 /* Sources */,
 				B02699791D7722CF006D8FD0 /* Frameworks */,
 				B026997A1D7722CF006D8FD0 /* Resources */,
+				38D98DDBAEDD5560597B70FF /* [CP] Embed Pods Frameworks */,
+				1B995C0E5AA55B83CFA1C6D3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B026998F1D7722CF006D8FD0 /* LaunchScreen.storyboard in Resources */,
+				B0B9B1D51D7BAB2400265680 /* food.json in Resources */,
 				B026998C1D7722CF006D8FD0 /* Assets.xcassets in Resources */,
 				B026998A1D7722CF006D8FD0 /* Main.storyboard in Resources */,
 			);
@@ -192,13 +288,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B995C0E5AA55B83CFA1C6D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UADemo_02_OPP/Pods-UADemo_02_OPP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38D98DDBAEDD5560597B70FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UADemo_02_OPP/Pods-UADemo_02_OPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AC2C189C33C4998A49DDA18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B02699781D7722CF006D8FD0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0B9B1DC1D7BBCCD00265680 /* UANormalCell.m in Sources */,
+				B0B9B1D91D7BAF5600265680 /* UANormal.m in Sources */,
 				B02699871D7722CF006D8FD0 /* ViewController.m in Sources */,
+				B014EB261D7B23E8008294AE /* UABaseFloor.m in Sources */,
 				B02699841D7722CF006D8FD0 /* AppDelegate.m in Sources */,
+				B014EB111D7AB91F008294AE /* UAAction.m in Sources */,
+				B014EB0E1D7AB861008294AE /* UAHandler.m in Sources */,
+				B0B9B1D31D7BA7AF00265680 /* UAJump.m in Sources */,
+				B014EB181D7AC0D2008294AE /* UAFloorModel.m in Sources */,
 				B02699811D7722CF006D8FD0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,8 +460,10 @@
 		};
 		B02699941D7722CF006D8FD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3077F4727709B567D0E7302 /* Pods-UADemo_02_OPP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = $SRCROOT/UADemo_02_OPP/PrefixHeader.pch;
 				INFOPLIST_FILE = UADemo_02_OPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sunny.UADemo-02-OPP";
@@ -320,8 +473,10 @@
 		};
 		B02699951D7722CF006D8FD0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9467A373C6787E25F800B1B /* Pods-UADemo_02_OPP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = $SRCROOT/UADemo_02_OPP/PrefixHeader.pch;
 				INFOPLIST_FILE = UADemo_02_OPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sunny.UADemo-02-OPP";

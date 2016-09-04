@@ -12,23 +12,23 @@
 
 - (void)fetchUAHomeInfoCompletionHandler:(void (^)(NSDictionary *params))completion
 {
-    [self response:^(NSDictionary *params, NSURLResponse * response, NSError * error){
-        if(error)
-        {
-            //异常埋点
-            NSLog(@"wang luo yi chang...");
-            return ;
-        }
-        
-        if(completion){
-            completion(params);
-        }
-    }];
+    self.parameters =  @{TOKEN:ACCESSTOKEN,
+                         COUNT: @"100"
+                         };
+    [self response:^(NSDictionary *params){
+               if(completion){
+                        completion(params);
+                }
+            }
+           failure:^(NSError * error){
+               NSLog(@"wang luo yi chang...");
+               return ;
+           }];
 }
 
 - (NSString *)hostUrl
 {
-    return @"http://www.baidu.com/";
+    return REQUESTPUBLICURL;
 }
 
 - (NSString *)serverAPI
