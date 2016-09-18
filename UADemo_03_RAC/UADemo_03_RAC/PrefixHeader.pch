@@ -14,4 +14,6 @@
 #import <ReactiveCocoa/ReactiveCocoa.h>
 #import <ReactiveCocoa/RACEXTScope.h>
 
+#import <AFNetworking/AFNetworking.h>
+#import <UIKit+AFNetworking.h>
 #endif /* PrefixHeader_pch */

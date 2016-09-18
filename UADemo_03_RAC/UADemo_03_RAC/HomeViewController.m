@@ -18,6 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor purpleColor];
+    
+    @weakify(self);
+    RACSignal * signal = [self.homeViewModel.requestCommand execute:nil];
+    [signal subscribeNext:^(id x){
+        @strongify(self);
+        self.homeViewModel.data = x;
+        [self.tableView reloadData];
+    }];
 }
 
 #pragma mark - UITableViewDelegate,UITableViewDataSource
@@ -33,8 +41,22 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell * cell = nil;
+    static NSString * cellIdentifier = @"cellIdentifier";
+    UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
+    }
+    NSDictionary * items = [self.homeViewModel.data objectAtIndex:indexPath.row];
+    cell.textLabel.text = items[@"title"];
     return cell;
     
+}
+
+- (HomeViewModel *)homeViewModel
+{
+    if (!_homeViewModel) {
+        _homeViewModel = [[HomeViewModel alloc] init];
+    }
+    return _homeViewModel;
 }
 @end

@@ -6,6 +6,7 @@
 target 'UADemo_03_RAC' do
 
 pod 'ReactiveCocoa', '~> 2.1.8’
+pod 'AFNetworking', '~> 3.1.0'
 
 end
 

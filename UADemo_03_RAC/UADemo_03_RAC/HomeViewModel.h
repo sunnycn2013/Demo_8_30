@@ -11,4 +11,6 @@
 @interface HomeViewModel : ViewModel
 
 @property (nonatomic,strong) NSArray *data;
+@property(nonatomic, strong, readonly)RACCommand *requestCommand;
+
 @end
