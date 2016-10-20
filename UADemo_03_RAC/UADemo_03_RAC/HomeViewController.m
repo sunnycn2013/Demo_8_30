@@ -8,6 +8,7 @@
 
 #import "HomeViewController.h"
 #import "HomeViewModel.h"
+#import "HomeCell.h"
 
 @interface HomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)HomeViewModel * homeViewModel;
@@ -26,6 +27,10 @@
         self.homeViewModel.data = x;
         [self.tableView reloadData];
     }];
+    if ([self respondsToSelector:@selector(setAutomaticallyAdjustsScrollViewInsets:)]) {
+        self.automaticallyAdjustsScrollViewInsets = NO;
+    }
+    [self.tableView registerClass:[HomeCell class] forCellReuseIdentifier:@"HomeCell"];
 }
 
 #pragma mark - UITableViewDelegate,UITableViewDataSource
@@ -41,15 +46,20 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString * cellIdentifier = @"cellIdentifier";
-    UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    static NSString * cellIdentifier = @"HomeCell";
+    HomeCell * cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
+        cell = [[HomeCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
     }
-    NSDictionary * items = [self.homeViewModel.data objectAtIndex:indexPath.row];
-    cell.textLabel.text = items[@"title"];
+//    NSDictionary * items = [self.homeViewModel.data objectAtIndex:indexPath.row];
+//    cell.textLabel.text = items[@"title"];
     return cell;
     
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 100;
 }
 
 - (HomeViewModel *)homeViewModel

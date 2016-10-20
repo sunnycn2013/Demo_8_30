@@ -16,4 +16,6 @@
 
 #import <AFNetworking/AFNetworking.h>
 #import <UIKit+AFNetworking.h>
+#import <Masonry/Masonry.h>
+
 #endif /* PrefixHeader_pch */
